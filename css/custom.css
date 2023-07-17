@@ -1,3 +1,8 @@
 .swiper-content{
     width: 60% !important;
 }
+.max-w-550{
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
