@@ -10,7 +10,7 @@
     height: 500px !important;
 }
 #popupFormBox{
-    top:-50%;
+    top:-150%;
     position: fixed;
     /* transition: .5s; */
 }
