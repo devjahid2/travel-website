@@ -188,7 +188,7 @@
                                 </div>
                                 <h1 class="mb-2"><a href="tour-single.html" class="white">Make Your Trip Fun & Noted</a></h1>
                                 <p class="white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                <a href="tour-single.html" class="nir-btn">Discover More</a>
+                                <button   class="nir-btn">Discover More</button>
                             </div>
                             <div class="dot-overlay"></div>
                         </div> 
@@ -220,7 +220,7 @@
                                 </div>
                                 <h1 class="mb-2"><a href="tour-single.html" class="white">Begin your adventure with us</a></h1>
                                 <p class="white mb-4">Swifter, smarter, smoother travel.</p>
-                                <a href="tour-single.html" class="nir-btn">Make An Enquiry</a>
+                                <button class="nir-btn">Make An Enquiry</button>
                             </div>
                             <div class="dot-overlay"></div>
                         </div> 
@@ -825,6 +825,51 @@
         </div>
       </div>
     </div>
+
+
+    <!-- popup form -->
+    <div class="bg-shadow"></div>
+    <form id="popupFormBox" action="" class="popup_form rounded">
+        <h2>Book Free Demo</h2>
+        <div class="p-2">
+            <p class="text-success" id="msg_free_sus"></p>
+            <p class="text-danger" id="msg_free_err"></p>
+            <div class="form-group">
+                <input type="text" name="chat_free_name" id="chat_free_name" class="single_form" placeholder="Name*">
+                
+                <input type="email" name="chat_free_email" id="chat_free_email" class="single_form" placeholder="Email*">
+              </div>
+              <div class="form-group">
+                  <p class="text-danger" id="msg_chat_free_name"></p>
+                  <p class="text-danger" id="msg_chat_free_email"></p>
+                  </div>
+              <div class="form-group">
+                <input type="text" name="chat_free_phone_number" id="chat_free_phone_number" class="single_form" placeholder="Phone Number">
+                <input type="text" name="chat_free_phone_number" id="chat_free_company_name" class="single_form" placeholder="Company Name">
+              </div>
+              <div class="form-group">
+                  <p class="text-danger" id="msg_chat_free_phone_number"></p>
+                  <p class="text-danger" id="msg_chat_free_company_name"></p>
+              </div>
+              <div class="form-group">
+                <textarea name="chat_free_message" id="chat_free_message" class="message_box" placeholder="Message"></textarea>
+                
+              </div>
+              <div class="form-group">
+                  <p class="text-danger" id="msg_chat_free_message"></p>
+              </div>
+              
+              <div class="d-flex align-items-center justify-content-between">
+                <button class="main_btn" type="button" onclick="book_free_contact()">SEND</button>
+                <a href="javascript:void(0)" onclick="handleActiveClassToggle('popupForm')" class="cancel_btn">CANCEL</a>
+              </div>
+        </div>
+      </form>
+
+
+
+
+
 
 
     <!-- *Scripts* -->
