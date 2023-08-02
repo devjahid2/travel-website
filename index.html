@@ -188,7 +188,7 @@
                                 </div>
                                 <h1 class="mb-2"><a href="tour-single.html" class="white">Make Your Trip Fun & Noted</a></h1>
                                 <p class="white mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-                                <button   class="nir-btn">Discover More</button>
+                                <button  onclick="popupMenu('popupFormBox','bg-shadow','ADD')"  class="nir-btn">Discover More</button>
                             </div>
                             <div class="dot-overlay"></div>
                         </div> 
@@ -220,7 +220,7 @@
                                 </div>
                                 <h1 class="mb-2"><a href="tour-single.html" class="white">Begin your adventure with us</a></h1>
                                 <p class="white mb-4">Swifter, smarter, smoother travel.</p>
-                                <button class="nir-btn">Make An Enquiry</button>
+                                <button onclick="popupMenu('popupFormBox','bg-shadow','ADD')"  class="nir-btn">Make An Enquiry</button>
                             </div>
                             <div class="dot-overlay"></div>
                         </div> 
@@ -828,7 +828,7 @@
 
 
     <!-- popup form -->
-    <div class="bg-shadow"></div>
+    <div onclick="popupMenu('popupFormBox','bg-shadow','REMOVE')" id="bg-shadow" class="bg-shadow"></div>
     <form id="popupFormBox" action="" class="popup_form rounded">
         <h2>Book Free Demo</h2>
         <div class="p-2">
@@ -861,7 +861,7 @@
               
               <div class="d-flex align-items-center justify-content-between">
                 <button class="main_btn" type="button" onclick="book_free_contact()">SEND</button>
-                <a href="javascript:void(0)" onclick="handleActiveClassToggle('popupForm')" class="cancel_btn">CANCEL</a>
+                <a href="javascript:void(0)" onclick="popupMenu('popupFormBox','bg-shadow','REMOVE')"  class="cancel_btn">CANCEL</a>
               </div>
         </div>
       </form>

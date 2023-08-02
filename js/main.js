@@ -484,3 +484,15 @@
          jQuery('.slider').css('height', `${bodyheight}px`);
      }
  }
+
+ function popupMenu(id,id2,condition){
+    const element = document.getElementById(id)
+    const element2 = document.getElementById(id2)
+    if(condition==="ADD"){
+        element.classList.add('active')
+        element2.classList.add('active')
+    }else{
+        element.classList.remove('active')
+        element2.classList.remove('active')
+    }
+ }
