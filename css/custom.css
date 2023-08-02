@@ -11,7 +11,11 @@
 }
 #popupFormBox{
     top:-50%;
+    position: fixed;
     /* transition: .5s; */
+}
+.why-us-item{
+    height: 100%;
 }
 #popupFormBox.active{
     position: fixed;
