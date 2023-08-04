@@ -77,3 +77,14 @@
     left: 0;
     z-index: 99;
 }
+.single_desc {
+    margin-bottom: 20px;
+}
+.single_desc p {
+    margin-bottom: 10px;
+}
+.single_desc .heading {
+    font-weight: 400;
+    font-size: 20px;
+    color: #ea9c00;
+}
