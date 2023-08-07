@@ -89,7 +89,10 @@
     font-size: 20px;
     color: #ea9c00;
 }
-
+.slick-track{
+    display: flex !important;
+    align-items: center;
+}
 @media (max-width:1400px) {
     .banner .slider{
         height: 400px !important;
