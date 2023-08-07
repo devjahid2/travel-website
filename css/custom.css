@@ -1,5 +1,6 @@
 .swiper-content{
     width: 60% !important;
+    top: 50% !important;
 }
 .max-w-550{
     width: 100%;
@@ -87,4 +88,35 @@
     font-weight: 400;
     font-size: 20px;
     color: #ea9c00;
+}
+
+@media (max-width:1400px) {
+    .banner .slider{
+        height: 450px !important;
+    }
+    h1{
+        font-size: 30px;
+    }
+    body{
+        font-size: 13px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .why-us .why-us-item .why-us-icon [class^="flaticon-"]::before, .why-us .why-us-item .why-us-icon i{
+        font-size: 35px;
+    }
+    .testimonial .testimonial-item .details p, .testimonial .testimonial-item1 .details p{
+        font-size: 15px !important;
+    }
+    .testimonial .testimonial-item .author-info img, .testimonial .testimonial-item1 .author-info img{
+        width: 50px;
+        height: 50px;
+    }
 }
