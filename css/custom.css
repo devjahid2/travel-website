@@ -7,7 +7,7 @@
     max-width: 750px;
     margin: auto;
 }
-.banner .slider,.banner .banner-main{
+.banner .slider,.banner .banner-main,.banner{
     height: 500px !important;
 }
 #popupFormBox{
