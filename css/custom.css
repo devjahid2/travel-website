@@ -10,6 +10,9 @@
 .banner .slider,.banner .banner-main,.banner{
     height: 500px !important;
 }
+.banner-450{
+    height: 450px !important;
+}
 #popupFormBox{
     top:-150%;
     position: fixed;
