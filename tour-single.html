@@ -392,9 +392,14 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <ul id="tabs" class="nav nav-tabs bordernone mb-0">
-                                        <li class="active">
-                                            <a data-toggle="tab" href="#highlight" class="rounded box-shadow mb-2 border-all">Highlight</a>
-                                        </li>
+                                        <div class="d-flex align-items-center gap-2 w-100 justify-content-between">
+                                            <li class="active text-center">
+                                                <a data-toggle="tab" href="#highlight" class="rounded box-shadow mb-2 border-all">Book Now</a>
+                                            </li>
+                                            <li class="text-center">
+                                                <a type="button" data-bs-toggle="modal" data-bs-target="#enquire" class="rounded box-shadow mb-2 border-all">Enquire More</a>
+                                            </li>
+                                        </div>
                                         <li>
                                             <a data-toggle="tab" href="#iternary" class="rounded box-shadow mb-2 border-all">Iternary</a>
                                         </li>
@@ -701,12 +706,54 @@
                             </div>
                         </div>
                     </div>
+
+
+    <!-- Modal  -->
+
+  
+
+    
+
                 </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="modal fade" id="enquire" tabindex="-1" aria-labelledby="enquire" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Message Us For Enquire</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="">
+                <form method="post" action="#" name="contactform1" id="contactform1">
+                    <div class="form-group mb-2">
+                        <input type="text" name="user_name" class="form-control" id="fname1" placeholder="User Name">
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" name="user_name" class="form-control" id="femail" placeholder="Email Address">
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="tel" name="password_name" class="form-control" id="phone" placeholder="Phone Ex. +991">
+                    </div>
+
+                    <div class="form-group mb-2">
+                        <textarea class="form-control" name="message" id="" placeholder="Message"></textarea>
+                    </div>
+                    
+                    
+                    <div class="comment-btn mb-2 pb-2 text-center border-b">
+                        <input type="submit" class="nir-btn w-100" id="submit1" value="Send">
+                    </div>
+                </form>
+            
+          </div>
+        </div>
+      </div>
+
 
 
     <!-- *Scripts* -->
