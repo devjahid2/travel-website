@@ -142,7 +142,8 @@
                                     <hr>
                                     <p><small>Get our assistance for easy booking</small></p>
 
-                                    <a href="tell:+91 99993 60524" class="btn btn-secondary rounded-3 "><small><i class="fa fa-phone me-1"></i> Want us to call you?</small></a>
+                                    <!-- <a href="tell:+91 99993 60524" class="btn btn-secondary rounded-3 "><small> Want us to call you?</small></a> -->
+                                    <a type="button" data-bs-toggle="modal" data-bs-target="#enquire" class="btn btn-secondary rounded-3"><i class="fa fa-phone me-1"></i> Want us to call you?</a>
                                     <p><small>Call us at(Toll Free No.)</small></p>
                                     <h4>+91 99993 60524</h4>
                                 </div>
@@ -809,6 +810,41 @@
                     </div>
                 </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="enquire" tabindex="-1" aria-labelledby="enquire" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Send Message</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>           
+            </div>
+            <div class="modal-body pb-0" id="">
+                <form method="post" action="#" name="contactform1" id="contactform1">
+                    <div class="form-group mb-2">
+                        <input type="text" name="user_name" class="form-control" id="fname1" placeholder="User Name">
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="text" name="user_name" class="form-control" id="femail" placeholder="Email Address">
+                    </div>
+                    <div class="form-group mb-2">
+                        <input type="tel" name="password_name" class="form-control" id="phone" placeholder="Phone Ex. +991">
+                    </div>
+
+                    <div class="form-group mb-2">
+                        <textarea class="form-control" name="message" id="" placeholder="Message"></textarea>
+                    </div>
+                    
+                    
+                    <div class="comment-btn mb-2 pb-2 text-center border-b">
+                        <input type="submit" class="nir-btn w-100" id="submit1" value="Send">
+                    </div>
+                </form>
+            
           </div>
         </div>
       </div>
